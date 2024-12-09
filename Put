@@ -1,0 +1,8 @@
+putResponse = table.put_item(
+    Item={
+        'DeptName': 'ECE',
+        'EmpId': 4,
+        'EmpName': 'VL',
+        'Salary': 45000,
+    },
+)
